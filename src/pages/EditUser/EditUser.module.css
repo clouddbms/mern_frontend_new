@@ -1,0 +1,90 @@
+.body {
+  background-color: #c2e2ff;
+  margin-top: -25px;
+  padding-bottom: 25px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1 {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3em;
+  padding-top: 25px;
+}
+
+.label {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.input,
+.select,
+.textarea {
+  width: 500px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: 400;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+}
+
+.button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 500px) {
+  .form {
+    max-width: 400px;
+  }
+  .complete {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input,
+  .select,
+  .textarea {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 320px) and (max-width: 620px) {
+  .form {
+    max-width: 300px;
+  }
+  .input,
+  .select,
+  .textarea {
+    width: 60vw;
+  }
+}
+
+.complete {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 10px;
+}

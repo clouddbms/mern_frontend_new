@@ -1,0 +1,136 @@
+.body {
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-weight: 300; */
+    /* font-size: 20px; */
+    background: rgb(223, 222, 220);
+    width:100vw;
+    min-height: 100vh;
+    padding: 30px;
+    padding-left: 50px;
+    background:#DAE2F8;
+    color: #0f1c60;
+}
+
+.total_experts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_expert {
+    width: 500px;
+    border-radius: 10px;
+    /* height: 200px; */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+  }
+  
+
+.detailss,
+.subdetailss {
+    /* font-weight: 300; */
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailss h4,
+.detailss h3,
+.posted h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.detailss .box {
+    background-color: rgb(239, 142, 142);
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.total_experts a {
+    text-decoration: none;
+    color: #0f1c60;
+}
+
+.subdetailss h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.posted h3 {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right {
+    margin-bottom: 50px;
+}
+
+.searchbar {
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.searchtab {
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+#selector1,
+#selector2 {
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.submitbtn {
+    border-radius: 5px;
+    width: 120px;
+    height: 35px;
+    background-color: #24a0ed;
+    border: 2px solid #29aafb;
+    color: white;
+    font-size: 17px;
+}
+
+.submitbtn:hover {
+    background-color: #023555;
+}
+
+
+.btn1 {
+    background-color: #e74c3c; /* Red color */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 10px 0 10px;
+  
+    &:hover {
+      background-color: #c0392b; /* Darker red color on hover */
+    }
+  }
+  
+  .btn2 {
+    background-color: #27ae60; /* Green color */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #219653; /* Darker green color on hover */
+    }
+  }
+  

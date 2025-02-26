@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Tilt+Neon&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{min-height:100%;}
+
+body{
+
+    background-color: #F6F6F6;
+    position: relative;
+}
+
+
+
+.profileimg{
+    width: 50px;
+    height: 50px;
+    color: white;
+    border:2px solid white;
+    border-radius: 50%;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 18px;
+    align-self: normal;
+    justify-content: center;
+    margin-right: 2%;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.profileimg:hover{
+    font-size: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    color: #b03060;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px){
+
+    .article-50{width:90%}
+    .article-60{width:90%}
+    .article-40{width:90%}
+    .article-30{width:90%}
+
+    .pop-image{
+        width: 480px;
+        height: 350px;
+        left: calc(50% - 240px);
+    }
+
+
+    .modal-image .description{
+        width: 480px;
+        left: calc(50% - 240px);
+        top: 65vh;
+    }
+
+}
+
+@media screen and (max-width:500px){
+    .navbar-brand{
+        opacity: 0;
+    }
+
+    .pop-image{
+        width: 70vw;
+        height: 50vw;
+        left: 15vw;
+    }
+
+
+    .modal-image .description{
+        width: 80vw;
+        left: 10vw;
+        top: 50vh;
+    }
+
+}
+
+.dd_menu
+{
+    position: absolute;
+    top: 47px;
+    right: 10px;
+    display: flex;
+    background: #fff;
+    box-shadow:0 0 3px rgba(0,0,0,0.25);
+    border-radius: 15px;
+    margin-top: 30px;
+    display: none;
+    z-index: 100;
+
+
+}
+.activated{
+    display: flex;
+}
+.dd_left ul{
+    /* margin: 10; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dd_left
+{
+    border-top-left-radius: 10px;
+    padding-top: 5px;
+    background:gray;
+    border-bottom-left-radius: 10px;
+}
+.dd_left li{
+    margin-top: 12px;
+    color: #fff;
+    margin-bottom:12px;
+    list-style: none;
+    padding-right: 2px;
+}
+.dd_menu .dd_right
+{
+   padding:15px 20px ;
+
+}
+.dd_right li
+{
+    margin-bottom:10px ;
+    color: #868686;
+    list-style: none;
+}
+
+
+.nav_right ul li.li_main.active .dd_menu{
+    display: flex;
+
+}
+
+.dontshow{
+    display: none !important;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    display: block !important;
+}

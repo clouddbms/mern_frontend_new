@@ -1,0 +1,132 @@
+
+.body {
+    background-color: #c2e2ff;
+    /* background-color: white; */
+    margin-top: -15px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.form {
+    max-width: 800px;
+    margin: 0 auto;
+   
+    
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 20px 20px 20px;
+    /* box-shadow: 1px 1px 1px 1px rgb(196, 216, 255); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.h1 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:3em;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.one
+{
+    margin-right: 0;
+}
+
+.label {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    margin-bottom: 20px;
+    /* background-color: #ecf4fc; */
+    font-weight: 400;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.small {
+    display: inline-block;
+    margin-bottom: 10px 10px;
+    font-size: 15px;
+}
+
+.button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media(max-width: 500px) {
+    .form {
+        max-width: 400px;
+    }
+    .complete{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) and (max-width:620px) {
+    .form {
+        max-width: 300px;
+    }
+
+}
+
+
+.complete{
+    display: flex;
+    gap: 30px;
+}
+
+.profile_picture{
+    margin-top: 20px;
+}
+
+
+
+.one,
+.two {
+    flex: 1;
+}
+
+.label,
+.input {
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+@media (min-width: 500px) {
+    .complete {
+        display: flex;
+        gap: 30px;
+    }
+
+    .one,
+    .two {
+        width: 50%; 
+    }
+}

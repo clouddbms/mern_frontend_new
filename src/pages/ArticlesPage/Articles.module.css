@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Tilt+Neon&family=Tilt+Prism&display=swap');
+
+.articles{
+  margin-top: 30px;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  flex-wrap:wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+  align-items: center;
+}
+
+.pagination {
+  margin-top: 50px;
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+  width: 270px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center;
+}
+
+.pagination div {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.page {
+  color: rgb(16, 15, 15);
+  margin-top: 0.3rem;
+}
+
+.pagination .prev,
+.pagination .next {
+  border-radius: 10px;
+  background-color: rgba(42, 43, 43, 0.912);
+  font-size: 20px;
+  color: white;
+  border: 1px solid #000;
+  font-size: 15px;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+
+.pagination .prev.disabled,
+.pagination .next.disabled {
+  border-color: gray;
+  color: gray;
+  pointer-events: none;
+}

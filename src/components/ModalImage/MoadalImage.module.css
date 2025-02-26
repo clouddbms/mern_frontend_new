@@ -1,0 +1,56 @@
+.modal-image{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+.pop-image{
+  width: 50vw;
+  height: 400px;
+  position: absolute;
+ left: 25vw;
+ top: 10vh;
+  z-index: 100;
+  border-radius: 10px;
+}
+
+.close-btn{
+  right: 5vw;
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.close-btn a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.description{
+  position :absolute;
+  z-index: 100;
+  top: 70vh;
+  width: 50vw;
+  padding: 0 30px;
+  left: 25vw;
+  font-size: 16px;
+}
+
+.description span{
+  color: white !important;
+}
+
+.read-more{
+  font-weight: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
