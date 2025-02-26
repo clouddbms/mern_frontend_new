@@ -34,16 +34,16 @@ export default function Footer() {
     <div className={styles["footer-col"]}>
         <h4>Contact Info</h4> 
         <ul>
-            <li><a href="#"><i className="fa-solid fa-phone"></i><span>+91 9273635224</span></a></li>
+            <li><a href="#"><i className="fa-solid fa-phone"></i><span>+91 1234567890</span></a></li>
             <li><a href="#"><i className="fa-solid fa-envelope"></i><span>mindmeld@gmail.com</span></a></li>
-            <li><a href="#"><i className="fa-solid fa-location-dot"></i><span>Sricity Chittoor ,517646</span></a></li>
+            <li><a href="#"><i className="fa-solid fa-location-dot"></i><span>Bangalore</span></a></li>
         </ul>
     </div>
 </div>
         </Container>
 
 </footer>
-<p className={styles["copyright"]}><i className="fa-regular fa-copyright"></i>2023 Copyright:<span>MindMeld.com</span></p>
+<p className={styles["copyright"]}><i className="fa-regular fa-copyright"></i>2025 Copyright:<span>MindMeld.com</span></p>
     </>
   )
 }

@@ -30,7 +30,7 @@ export default function AboutUs() {
               <img src="https://cdn.business2community.com/wp-content/uploads/2014/03/Unknown-person.gif" className="img-fluid" alt="" />
             </div>
             <div className={Styles["member-info"]}>
-              <h3>Likith</h3>
+              <h3>G V Akhilesh</h3>
               <div className={Styles.social}>
                 <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
                 <Link to="/"><i class="fa-brands fa-facebook"></i></Link>
@@ -46,7 +46,7 @@ export default function AboutUs() {
               <img src="https://cdn.business2community.com/wp-content/uploads/2014/03/Unknown-person.gif" className="img-fluid" alt="" />
             </div>
             <div className={Styles["member-info"]}>
-              <h3>Sri Ganesh</h3>
+              <h3>K Akash</h3>
               <div className={Styles.social}>
               <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
                 <Link to="/"><i class="fa-brands fa-facebook"></i></Link>
@@ -62,7 +62,7 @@ export default function AboutUs() {
               <img src="https://cdn.business2community.com/wp-content/uploads/2014/03/Unknown-person.gif" className="img-fluid" alt="" />
             </div>
             <div className={Styles["member-info"]}>
-              <h3>Bhanu Pradeep</h3>
+              <h3>P Reddy Dhanush</h3>
               <div className={Styles.social}>
               <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
                 <Link to="/"><i class="fa-brands fa-facebook"></i></Link>
@@ -73,37 +73,8 @@ export default function AboutUs() {
             </div>
           </div>
 
-          <div className={Styles.member}>
-            <div className={Styles["member-img"]}>
-              <img src="https://cdn.business2community.com/wp-content/uploads/2014/03/Unknown-person.gif" className="img-fluid" alt="" />
-            </div>
-            <div className={Styles["member-info"]}>
-              <h3>Avinash</h3>
-              <div className={Styles.social}>
-              <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
-                <Link to="/"><i class="fa-brands fa-facebook"></i></Link>
-                <Link to="/"><i class="fa-brands fa-instagram"></i></Link>
-              </div>
-              <h4>Web Designer </h4>
-              <p>Designed MindMeld website</p>
-            </div>
-          </div>
 
-          <div className={Styles.member}>
-            <div className={Styles["member-img"]}>
-              <img src="https://cdn.business2community.com/wp-content/uploads/2014/03/Unknown-person.gif" className="img-fluid" alt="" />
-            </div>
-            <div className={Styles["member-info"]}>
-              <h3>Jagadeesh</h3>
-              <div className={Styles.social}>
-              <Link to="/"><i class="fa-brands fa-twitter"></i></Link>
-                <Link to="/"><i class="fa-brands fa-facebook"></i></Link>
-                <Link to="/"><i class="fa-brands fa-instagram"></i></Link>
-              </div>
-              <h4>Web Designer </h4>
-              <p>Designed MindMeld website</p>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>

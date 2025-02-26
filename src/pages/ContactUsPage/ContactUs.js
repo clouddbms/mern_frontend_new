@@ -140,8 +140,7 @@ export default function ContactUs({data})
                 Contact Info
             </h2>
             <div className={Styles["contactus-links"]}>
-                <p className={Styles["single-link"]}><i className="fa-solid fa-location-crosshairs"></i>Indian Institute of Information Technology ,
-                Sricity</p>
+                <p className={Styles["single-link"]}><i className="fa-solid fa-location-crosshairs"></i>Bangalore</p>
                 <p className={Styles["single-link"]}><i className="fa-solid fa-phone"></i>+91 1234567890</p>
                 <p className={Styles["single-link"]}><i className="fa-solid fa-envelope"></i> contactmindmeld2003@gmail.com</p>
                 <p className={Styles["single-link"]}><i className="fa-brands fa-facebook"></i>facebook</p>
