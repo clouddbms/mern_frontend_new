@@ -315,6 +315,8 @@ const Signup = () => {
               <span style={{ color: "aliceblue", fontSize: "13px" }}>
                 *Password must contain letters,numbers and symbols and must be
                 of length atleast 6
+                <br />
+                *Contact number must be of 10 digits
               </span>
             </div>
             <div className={`styles.option animated wow fadeInDown`}>
