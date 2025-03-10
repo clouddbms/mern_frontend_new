@@ -63,7 +63,7 @@ export default function Comment({comment_info, isReply=false, main_comment_id=""
               </div>
               <div className={Styles["right-part"]}>
                 <div className={Styles["comment-header"]}> <span> <img className={`${Styles["comment-profile-image"]} rounded-circle`} src={comment_info.profile_image_link}
-                    alt=""/></a>
+                    alt=""/></span>
                   <span className={Styles["name"]}>{comment_info.user_name}</span>
                   <span className={Styles["youTag"]}>You</span>
                   <div className={Styles["time"]}>{comment_info.posted_date.split("T")[0]}</div> 
