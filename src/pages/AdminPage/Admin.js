@@ -13,6 +13,9 @@ const Admin = () => {
   const expertsize=experts.length
   const usersize=users.length;
   const articlesize=articles.length;
+  const sortedExperts = [...experts].reverse(); // Creates a reversed copy of experts
+  const sortedUsers = [...users].reverse(); 
+  const sortedArticles = [...articles].reverse();
   const [loading,setLoading]=useState(false)
   useEffect(()=>{
     setLoading(true)
@@ -79,7 +82,7 @@ const Admin = () => {
             <h2>Recently Joined</h2>
             <div className={styles["recent-items"]}>
               <h3 style={{ fontSize: "30px",fontFamily:"600" }}>Experts</h3>
-              {experts.length>0 &&experts.slice(0,2).map((eachone) => {
+              {sortedExperts.length>0 && sortedExperts.slice(0,2).map((eachone) => {
                 return (
                   <div className={styles["recent-item"]}>
                     <div className={styles["name-container"]}>
@@ -96,7 +99,7 @@ const Admin = () => {
                 );
               })}
               <h3 style={{ fontSize: "30px", textAlign: "left" }}>Users</h3>
-              {users.slice(usersize-2,usersize).map((eachone) => {
+              {sortedUsers.slice(usersize-2,usersize).map((eachone) => {
                 return (
                   <div className={styles["recent-item"]}>
                     <div className={styles["name-container"]}>
@@ -118,7 +121,7 @@ const Admin = () => {
                  <h2>Recently Posted</h2>
                 <div class={styles["recent-items"]}>
                 {/* {console.log(JSON.parse(articles))} */}
-                {articles.length>0 && articles.slice(0,5).map((article)=>{
+                {sortedArticles.length>0 && sortedArticles.slice(0,5).map((article)=>{
                          return (<div className={styles["recent-item"]}>
                         <div class={styles["title-container"]}>
                             <div class={styles["blog-title"]}>{article.title.substring(0,30)}...</div>
