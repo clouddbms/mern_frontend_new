@@ -83,10 +83,6 @@ export default function ExpertProfile() {
                   <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
-                <div className={Styles.actionbtn}>
-                  <button>Follow</button>
-                  <button>Message</button>
-                </div>
               </div>
             </div>
           </div>
