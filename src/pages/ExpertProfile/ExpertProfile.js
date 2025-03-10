@@ -83,6 +83,9 @@ export default function ExpertProfile() {
                   <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </div>
+                 <div style={{alignItems: "center" }}>
+                  <h3>About Me</h3>
+                </div>
               </div>
             </div>
           </div>
