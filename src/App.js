@@ -26,6 +26,7 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import EditDetails from './pages/EditDetails/EditDetails'
 import EditUser from "./pages/EditUser/EditUser";
 import { backendUrl } from "./backendUrl";
+import AuthReset from "./components/AuthReset";
 
 import {
   createBrowserRouter, 
@@ -134,7 +135,7 @@ const router = createBrowserRouter(
         {role==="admin"&&<Route path="/admin/query" element={<Query></Query>}></Route>}
         {role==="admin"&&<Route path="/admin/mail" element={<SendMail></SendMail>}></Route>}
         {(role==="expert"||role==="admin")&&<Route path="/expert/:userId" element={<ExpertProfile/>}/>}
-        <Route path="/logout" element={<LandingPage></LandingPage>}></Route>
+        <Route path="/logout" element={<AuthReset></AuthReset>}></Route>
         <Route path="/user/:userid" element={<UserPage/>}> </Route>
         <Route path="/aboutus" element={<AboutUs/>}> </Route>
         <Route path="/user/edit_e" element={<EditDetails />} ></Route>
