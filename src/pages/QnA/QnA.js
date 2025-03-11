@@ -148,7 +148,7 @@ export default function QnA() {
         </div>
 
         <div className={Styles.faqs}>
-          <h1 className={Styles.heading}>Frequently Asked Questions</h1>
+          <h1 className={Styles.heading}>Questions</h1>
           <form  className={Styles["filter_form_faq_page"]} >
             <label className={Styles.label_show} htmlFor="show_dontshow" >
               Filter:
